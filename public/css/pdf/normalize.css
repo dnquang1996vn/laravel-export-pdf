@@ -20,6 +20,7 @@ body {
     width: 100%;
 }
 
+
 .title {
     margin-top: -10px;
     font-size: 30px;
@@ -45,4 +46,24 @@ body {
 
 hr {
     color: #E4EFEB;
+}
+
+.align-top {
+    vertical-align: top !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-nowrap {
+    white-space: nowrap !important;
 }
