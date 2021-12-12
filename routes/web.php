@@ -17,5 +17,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/report', [\App\Http\Controllers\ReportController::class, 'test']);
-Route::get('/view', [\App\Http\Controllers\ReportController::class, 'view']);
-Route::get('/report2', [\App\Http\Controllers\ReportController::class, 'puppeteer']);
