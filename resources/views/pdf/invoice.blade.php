@@ -2,7 +2,7 @@
 @section('content')
     <h1 class="title">Invoice</h1>
     <hr>
-    <table style="margin: 20px 0">
+    <table class="table--text" style="margin: 15px 0">
         <tr>
             <td style="width: 410px">
                 <table>
@@ -23,16 +23,16 @@
                 <table class="table--text">
                     <tr>
                         <td style="width: 80px">Order #:</td>
-                        <td style="padding-left: 12px"><strong>8561 837</strong></td>
+                        <td style="padding-left: 12px"><span class="semibold">8561 837</span></td>
                     </tr>
                     <tr>
                         <td>Order Date:</td>
-                        <td style="padding-left: 12px"><strong>12/20/2022</strong></td>
+                        <td style="padding-left: 12px"><span class="semibold">12/20/2022</span></td>
                     </tr>
                     <tr>
                         <td>Created By:</td>
-                        <td style="padding-left: 12px"><strong>Sales Support Team Sales Support Team Sales Support
-                                Team</strong></td>
+                        <td style="padding-left: 12px"><span class="semibold">Sales Support Team Sales Support Team Sales Support
+                                Team</span></td>
                     </tr>
                 </table>
 
@@ -40,7 +40,7 @@
         </tr>
     </table>
     <hr>
-    <table style="margin: 20px 0">
+    <table class="table--text" style="margin: 15px 0">
         <tr>
             <td style="width: 410px">
                 <div class="semibold caption">SHIP TO</div>
@@ -56,13 +56,13 @@
                 <table class="table--text">
                     <tr>
                         <td class="text-nowrap">License #:</td>
-                        <td style="padding-left: 12px"><strong>M1837 </strong></td>
+                        <td style="padding-left: 12px"><span class="semibold">M1837 </span></td>
                         <td style="padding-left: 30px" class="semibold text-nowrap text-uppercase">Arrival date</td>
                     </tr>
                     <tr>
                         <td class="text-nowrap">UBI:</td>
-                        <td style="padding-left: 12px"><strong>4564 4898 46 4564
-                            </strong></td>
+                        <td style="padding-left: 12px"><span class="semibold">4564 4898 46 4564
+                            </span></td>
                         <td class="semibold align-top" style="padding-left: 30px">12/20/2022</td>
 
                     </tr>
@@ -75,19 +75,19 @@
                 <table>
                     <tr class="align-top">
                         <td class="text-nowrap">Manifest #:</td>
-                        <td><strong>WAJ413287.IT2I3JS</strong></td>
+                        <td><span class="semibold">WAJ413287.IT2I3JS</span></td>
                     </tr>
                     <tr class="align-top">
                         <td>Driver:</td>
-                        <td><strong>Levi Shulda Haddad vi Shulda Hadd vi Shulda Hadd</strong></td>
+                        <td><span class="semibold">Levi Shulda Haddad vi Shulda Hadd vi Shulda Hadd</span></td>
                     </tr>
                     <tr class="align-top">
                         <td>Vehicle:</td>
-                        <td><strong>2017 White
+                        <td><span class="semibold">2017 White
                                 <br>
                                 Ram Promaster
                                 <br>
-                                Plate: C70022J</strong></td>
+                                Plate: C70022J</span></td>
                     </tr>
 
                 </table>
@@ -112,7 +112,7 @@
         @for ($i = 0; $i < 20; $i++)
             <tr>
                 <td class="text-center" style="padding-right: 0">{{$i}}</td>
-                <td class="semibold">Panda Pod - Dutch Treat 0.5g da Pod - Dutch Trea</td>
+                <td class="semibold" style="font-size: 12px">Panda Pod - Dutch Treat 0.5g da Pod - Dutch Trea</td>
                 <td>WAJ413287.INYTU4S</td>
                 <td class="text-right">$0.65</td>
                 <td class="text-right">2163</td>

@@ -2,10 +2,10 @@
 @section('content')
     <h1 class="title">Purchase Order</h1>
     <hr>
-    <table style="margin: 20px 0">
+    <table class="table--text" style="margin: 15px 0">
         <tr>
             <td style="width: 410px">
-                <table>
+                <table class="table--text">
                     <tr>
                         <td style="vertical-align: top; padding-top: 10px; width: 65px">
                             <img class="img--logo" src="https://picsum.photos/50/50" alt="">
@@ -13,7 +13,11 @@
                         <td>
                             <div class="subTitle">Grow OP Farms</div>
                             <div>2611 N Woodruff Rd STE B Spokane Valley,
+                                WA 992064138 2611 N Woodruff Rd STE B Spokane Valley,
                                 WA 992064138
+                                2611 N Woodruff Rd STE B Spokane Valley,
+                                WA 992064138
+
                             </div>
                         </td>
                     </tr>
@@ -22,17 +26,18 @@
             <td style="padding-left: 30px">
                 <table class="table--text">
                     <tr>
-                        <td>Order #:</td>
-                        <td style="padding-left: 12px"><strong>8561 837</strong></td>
+                        <td style="width: 79px">Order #:</td>
+                        <td style="padding-left: 12px"><span class="semibold">8561 837 8561 837 8561 8378561 837 8561 837</span>
+                        </td>
                     </tr>
                     <tr>
                         <td>Order Date:</td>
-                        <td style="padding-left: 12px"><strong>12/20/2022</strong></td>
+                        <td style="padding-left: 12px"><span class="semibold">12/20/2022</span></td>
                     </tr>
                     <tr>
-                        <td class="text-nowrap">Created By:</td>
-                        <td style="padding-left: 12px"><strong>Sales Support Team Sales Support Team Sales Support Team
-                                Sales Support Team</strong></td>
+                        <td>Created By:</td>
+                        <td style="padding-left: 12px"><span class="semibold">Sales Support Team Sales Support Team Sales Support Team
+                                Sales Support Team</span></td>
                     </tr>
                 </table>
 
@@ -40,7 +45,7 @@
         </tr>
     </table>
     <hr>
-    <table style="margin: 20px 0">
+    <table style="margin: 15px 0">
         <tr>
             <td style="vertical-align: top; width: 370px ">
                 <div class="semibold caption">SHIP TO</div>
@@ -50,7 +55,9 @@
                     SoftDreams_Processor
 
                 </div>
-                <div>9724 Aurora Ava N Seattle, WA 981033223</div>
+                <div>9724 Aurora Ava N Seattle, WA 981033223 9724 Aurora Ava N Seattle, WA 981033223 9724 Aurora Ava N
+                    Seattle, WA 981033223
+                </div>
                 <div>Phone: 2067907036</div>
                 <div class="semibold caption">Est. Delivery Date</div>
                 <div class="semibold subTitle2">12/20/2022</div>
@@ -59,11 +66,12 @@
                 <table class="table--text">
                     <tr>
                         <td>License #:</td>
-                        <td style="padding-left: 12px"><strong>M1837</strong></td>
+                        <td style="padding-left: 12px"><span class="semibold">M1837</span></td>
                     </tr>
                     <tr>
                         <td>UBI:</td>
-                        <td style="padding-left: 12px"><strong>4564 4898 46 564 4898 46 564 4898 46</strong></td>
+                        <td style="padding-left: 12px"><span
+                                class="semibold">4564 4898 46 564 4898 46 564 4898 46</span></td>
                     </tr>
 
                 </table>
@@ -87,7 +95,7 @@
         @for ($i = 0; $i < 20; $i++)
             <tr>
                 <td style="text-align: center">{{$i}}</td>
-                <td> 12th Man Down 12th Man Down 12th Man Down 12th Man Down 12th Man Down</td>
+                <td style="font-size: 12px"> 12th Man Down 12th Man Down 12th Man Down 12th Man Down 12th Man Down</td>
                 <td style="text-align: right">$0.65</td>
                 <td style="text-align: right">4433</td>
                 <td>$1405.95</td>
