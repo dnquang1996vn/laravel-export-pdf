@@ -7,6 +7,15 @@
     border: #cecbcb 1px solid;
 }
 
+.table--text {
+    width: 100%;
+}
+
+.table--text tr {
+    vertical-align: baseline;
+}
+
+
 .table--data {
     margin-top: 20px;
     width: 100%;

@@ -20,7 +20,7 @@
                 </table>
             </td>
             <td style="padding-left: 30px">
-                <table>
+                <table class="table--text">
                     <tr>
                         <td>Order #:</td>
                         <td style="padding-left: 12px"><strong>8561 837</strong></td>
@@ -30,8 +30,9 @@
                         <td style="padding-left: 12px"><strong>12/20/2022</strong></td>
                     </tr>
                     <tr>
-                        <td>Created By:</td>
-                        <td style="padding-left: 12px"><strong>Sales Support Team</strong></td>
+                        <td class="text-nowrap">Created By:</td>
+                        <td style="padding-left: 12px"><strong>Sales Support Team Sales Support Team Sales Support Team
+                                Sales Support Team</strong></td>
                     </tr>
                 </table>
 
@@ -55,14 +56,14 @@
                 <div class="semibold subTitle2">12/20/2022</div>
             </td>
             <td style="padding-left: 70px;width: 20%; vertical-align: top">
-                <table>
+                <table class="table--text">
                     <tr>
                         <td>License #:</td>
                         <td style="padding-left: 12px"><strong>M1837</strong></td>
                     </tr>
                     <tr>
                         <td>UBI:</td>
-                        <td style="padding-left: 12px"><strong>4564 4898 46</strong></td>
+                        <td style="padding-left: 12px"><strong>4564 4898 46 564 4898 46 564 4898 46</strong></td>
                     </tr>
 
                 </table>
@@ -86,9 +87,9 @@
         @for ($i = 0; $i < 20; $i++)
             <tr>
                 <td style="text-align: center">{{$i}}</td>
-                <td>12th Man Down</td>
+                <td> 12th Man Down 12th Man Down 12th Man Down 12th Man Down 12th Man Down</td>
                 <td style="text-align: right">$0.65</td>
-                <td style="text-align: right">2163</td>
+                <td style="text-align: right">4433</td>
                 <td>$1405.95</td>
             </tr>
         @endfor

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="{{ public_path('css/pdf/normalize.css') }}"/>
-    <link rel="stylesheet" href="{{ public_path('css/pdf/app.css') }}"/>
+    <link rel="stylesheet" href="{{ public_path('pdf/css/normalize.css') }}"/>
+    <link rel="stylesheet" href="{{ public_path('pdf/css/app.css') }}"/>
+
     <title>44</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin/>
     <link

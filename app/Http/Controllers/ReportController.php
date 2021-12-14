@@ -22,4 +22,12 @@ class ReportController extends Controller
 
     }
 
+    public function manifest(): \Illuminate\Http\Response
+    {
+        $pdf = PDF::loadView('pdf.manifest');
+        $pdf->getDomPDF();
+        return $pdf->stream();
+    }
+
+
 }

@@ -13,16 +13,16 @@
                         <td>
                             <div class="subTitle">Grow OP Farms</div>
                             <div>2611 N Woodruff Rd STE B Spokane Valley,
-                                WA 992064138
+                                WA 992064138 992064138 992064138992064138 992064138
                             </div>
                         </td>
                     </tr>
                 </table>
             </td>
             <td style="padding-left: 30px">
-                <table>
+                <table class="table--text">
                     <tr>
-                        <td>Order #:</td>
+                        <td style="width: 80px">Order #:</td>
                         <td style="padding-left: 12px"><strong>8561 837</strong></td>
                     </tr>
                     <tr>
@@ -31,7 +31,8 @@
                     </tr>
                     <tr>
                         <td>Created By:</td>
-                        <td style="padding-left: 12px"><strong>Sales Support Team</strong></td>
+                        <td style="padding-left: 12px"><strong>Sales Support Team Sales Support Team Sales Support
+                                Team</strong></td>
                     </tr>
                 </table>
 
@@ -52,7 +53,7 @@
                 <div>9724 Aurora Ava N Seattle, WA 981033223</div>
                 <div>Phone: 2067907036</div>
 
-                <table>
+                <table class="table--text">
                     <tr>
                         <td class="text-nowrap">License #:</td>
                         <td style="padding-left: 12px"><strong>M1837 </strong></td>
@@ -60,7 +61,7 @@
                     </tr>
                     <tr>
                         <td class="text-nowrap">UBI:</td>
-                        <td style="padding-left: 12px"><strong>4564 4898 46
+                        <td style="padding-left: 12px"><strong>4564 4898 46 4564
                             </strong></td>
                         <td class="semibold align-top" style="padding-left: 30px">12/20/2022</td>
 
@@ -78,7 +79,7 @@
                     </tr>
                     <tr class="align-top">
                         <td>Driver:</td>
-                        <td><strong>Levi Shulda Haddad</strong></td>
+                        <td><strong>Levi Shulda Haddad vi Shulda Hadd vi Shulda Hadd</strong></td>
                     </tr>
                     <tr class="align-top">
                         <td>Vehicle:</td>

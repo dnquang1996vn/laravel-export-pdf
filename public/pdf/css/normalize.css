@@ -52,6 +52,14 @@ hr {
     vertical-align: top !important;
 }
 
+.align-middle {
+    vertical-align: middle !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
 .text-right {
     text-align: right !important;
 }
@@ -66,4 +74,8 @@ hr {
 
 .text-nowrap {
     white-space: nowrap !important;
+}
+
+.color-primary-dark {
+    color: #0D3636;
 }
