@@ -22,9 +22,10 @@ class ReportController extends Controller
 
     }
 
-    public function manifest(): \Illuminate\Http\Response
+    public function manifest()
     {
-        $pdf = PDF::loadView('pdf.manifest');
+//        return view('pdf.manifest-contingency');
+        $pdf = PDF::loadView('pdf.manifest-contingency');
         $pdf->getDomPDF();
         return $pdf->stream();
     }

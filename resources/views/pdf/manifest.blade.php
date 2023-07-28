@@ -77,6 +77,7 @@
                                                         height="25"/>
                                                 </td>
                                             </tr>
+                                            {{}}
                                         </table>
 
                                     </td>

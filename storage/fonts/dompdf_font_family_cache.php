@@ -84,9 +84,9 @@ return array (
     'bold' => $fontDir . '/nunito_bold_20491dd02d708ed860212ace0e462b13',
   ),
   'red hat text' => array(
-    'normal' => $fontDir . '/red_hat_text_normal_1a2118735d5ba8cf389c41188cd25aed',
-    '500' => $fontDir . '/red_hat_text_500_8bd8b6851f6d168f2de7e50378e142dd',
-    'bold' => $fontDir . '/red_hat_text_bold_f143b4b304d6a6ccb06759e06098a611',
+    'normal' => $fontDir . '/red_hat_text_normal_2a05147a056822fdc38ed25508877202',
+    '500' => $fontDir . '/red_hat_text_500_40ff937a19287b15d57cc9a512cabab4',
+    'bold' => $fontDir . '/red_hat_text_bold_1eef3667c5a3e4569ce3b6193ffc1f62',
   ),
 );
 }; ?>
