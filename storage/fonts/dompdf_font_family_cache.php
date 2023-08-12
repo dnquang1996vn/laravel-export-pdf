@@ -78,15 +78,18 @@ return array (
     'italic' => $rootDir . '/lib/fonts/DejaVuSerif-Italic',
     'normal' => $rootDir . '/lib/fonts/DejaVuSerif',
   ),
-  'nunito' => array(
-    'normal' => $fontDir . '/nunito_normal_40be13e0838a28d85ef39e94d206a3ec',
-    '600' => $fontDir . '/nunito_600_c3043a2e85e7b258084eb09e0bf67379',
-    'bold' => $fontDir . '/nunito_bold_20491dd02d708ed860212ace0e462b13',
-  ),
   'red hat text' => array(
     'normal' => $fontDir . '/red_hat_text_normal_2a05147a056822fdc38ed25508877202',
     '500' => $fontDir . '/red_hat_text_500_40ff937a19287b15d57cc9a512cabab4',
     'bold' => $fontDir . '/red_hat_text_bold_1eef3667c5a3e4569ce3b6193ffc1f62',
+  ),
+  'arial' => array(
+    'normal' => $fontDir . '/arial_normal_0170059bb70bab6f08900f655d4e52e7',
+    '600' => $fontDir . '/arial_600_919e4e0820945e354f31364f40e2ba28',
+    'bold' => $fontDir . '/arial_bold_919e4e0820945e354f31364f40e2ba28',
+  ),
+  'calibri' => array(
+    'bold' => $fontDir . '/calibri_bold_25976494639935851cc813da1d9ca6f8',
   ),
 );
 }; ?>

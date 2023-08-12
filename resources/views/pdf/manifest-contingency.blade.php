@@ -16,14 +16,42 @@
         rel="stylesheet"
     />
 
+
+
     <style>
+
+        @font-face {
+            font-family: 'Arial';
+            src: url({{ storage_path("custom-fonts/arial.ttf") }})  format('truetype')
+        }
+
+        @font-face {
+            font-family: 'Arial';
+            font-weight: 600;
+            src: url({{ storage_path("custom-fonts/arial-bold.ttf") }})  format('truetype')
+        }
+
+        @font-face {
+            font-family: 'Arial';
+            font-weight: bold;
+            src: url({{ storage_path("custom-fonts/arial-bold.ttf") }})  format('truetype')
+        }
+
+        @font-face {
+            font-family: 'Calibri';
+            font-weight: bold;
+            src: url({{ storage_path("custom-fonts/calibri-bold.ttf") }})  format('truetype')
+        }
+
+
         @page {
-            margin: 130px 0.7in 130px 0.7in;
+            margin: 100px 0.5in 60px 0.5in;
         }
 
         body {
-            font-family: Arial serif;
+            font-family: "Arial", serif;
         }
+
 
         .header,
         .footer {
@@ -33,11 +61,11 @@
         }
 
         .header {
-            top: -100px;
+            top: -80px;
         }
 
         .footer {
-            bottom: -100px;
+            bottom: -60px;
         }
 
         .title-td {
@@ -45,7 +73,6 @@
         }
 
         .value-td {
-            font-size: 11px;
             word-wrap: break-word;
             word-break: break-word;
         }
@@ -69,14 +96,14 @@
 
     </style>
 </head>
-<body style="font-family: Arial,serif">
+<body>
 <header class="header">
     <table class="w-100">
         <tr style="opacity: 0.5">
             <td class="text-left"><img style="height: 50px"
                                        src="https://lh5.googleusercontent.com/wSOdbWDzGcaQYZMYW-_B8Up2ZTGA5JyltW0bq_xpEPMQFJ4BqqyFv50qpX7rbL7RTXwp8WIf73DKS-DIvHH-JCijBVvJnClyKQ730hYg_WLFMNHzZ3VfyMlxy7LeSxWtPDbUpMnj8-ivvUckiniQyw"
                                        alt=""/></td>
-            <td class="text-left text-nowrap" style=" font-size: 22px; font-weight: 500;padding-left: 10px"><br>
+            <td class="text-left text-nowrap" style=" font-size: 28px; font-weight: bold;padding-left: 10px;line-height: 1;  font-family: Calibri,serif"><br>
                 Contingency Manifest
             </td>
         </tr>
@@ -92,8 +119,8 @@
     </table>
 
 </footer>
-<div style="margin-left: 10px; margin-right: 10px">
-    <p>
+<div>
+    <p style="margin-top: -4px">
         The contingency manifest is to be used if CCRS is unable to produce the required manifest for movement of
         cannabis
         products within the I-502 market. When you complete the contingency manifest, the manifest must be sent to <a
@@ -180,7 +207,7 @@
             </tr>
             <tr>
                 <td class="title-td">Licensee E-mail:</td>
-                <td class="value-td" style="min-height: 100px"></td>
+                <td class="value-td"></td>
                 <td class="title-td">Licensee Phone:</td>
                 <td class="value-td"></td>
             </tr>
@@ -279,13 +306,13 @@
 
             <tr>
                 <td colspan="4">
-                    <div class="text-center">
-                        <strong>Transported Items</strong>
+                    <div style="margin-bottom: -14px" class="text-center" >
+                        <strong >Transported Items</strong>
                     </div>
                     For Description, if InventoryExternalIdentifier, enter the following information related to the
                     inventory:
 
-                    <ul>
+                    <ul style="margin-bottom: -14px">
                         <li>ProductType</li>
                         <li>InventoryType</li>
                         <li>Description</li>
@@ -310,7 +337,7 @@
                 <td style="font-weight: 600; text-decoration: underline">Inventory ID / Plant ID</td>
                 <td style="font-weight: 600; text-decoration: underline">Description</td>
                 <td style="font-weight: 600; text-decoration: underline">Quantity</td>
-                <td style="font-weight: 600; text-decoration: underline">UOM</td>
+                <td style="font-weight: 600; text-decoration: underline">UoM</td>
             </tr>
 
             @for ($i = 0; $i <= 50; $i++)

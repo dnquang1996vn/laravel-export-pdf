@@ -1,5 +1,6 @@
 <?php
 
+use App\Mail\OrderShipped;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,7 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    Mail::to('nhatquangprovodoi@gmail.com')->send(new OrderShipped());
     return view('welcome');
+});
+Route::get('/mailable', function () {
+
+    return new OrderShipped();
 });
 Route::get('/pdf/purchase_order', [\App\Http\Controllers\ReportController::class, 'purchaseOrder']);
 Route::get('/pdf/invoice', [\App\Http\Controllers\ReportController::class, 'invoice']);
