@@ -100,7 +100,8 @@
     role="article"
     aria-roledescription="email"
     lang="en"
-    style="text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: #e4efeb"
+    style="text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+    margin-left: auto; margin-right: auto; max-width: 800px "
 >
     <table style="background-color: #E4EFEB; width: 100%; box-sizing: border-box; border-collapse: collapse;">
         <thead>
@@ -196,15 +197,15 @@
                                 </thead>
 
                                 <tbody>
-                                @for ($i = 0; $i < 50; $i++)
+                                @for ($i = 0; $i < 20; $i++)
                                     <tr>
                                         <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left ">Category name name test</td>
                                         <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left ">Product name name test</td>
                                         <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left ">32823828 2929929929</td>
                                         <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left">
                                           <div style="color: #006262">
-                                              <img  src="https://i.ibb.co/wSw2qwG/Document.png"  alt="" width="16" height="16">
                                               <a style="line-height: 1; padding-bottom: 10px; color: #006262; text-decoration: underline"  href="/">Download</a>
+
                                           </div>
                                         </td>
                                     </tr>

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    Mail::to('nhatquangprovodoi@gmail.com')->send(new OrderShipped());
+    Mail::to('robert.h@webprovise.com')->send(new OrderShipped());
     return view('welcome');
 });
 Route::get('/mailable', function () {
