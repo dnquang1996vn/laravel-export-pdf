@@ -201,10 +201,11 @@
                                     <tr>
                                         <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left ">Category name name test</td>
                                         <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left ">Product name name test</td>
-                                        <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left ">32823828 2929929929</td>
+                                        <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left ">2234223423423</td>
                                         <td style="word-wrap:break-word; border-bottom:1px solid #EEF1F8; border-radius: 4px; height: 45px; padding: 10px; text-align: left">
-                                          <div style="color: #006262">
-                                              <a style="line-height: 1; padding-bottom: 10px; color: #006262; text-decoration: underline"  href="/">Download</a>
+                                          <div style="color: #006262; min-width: 80px; display: inline-block">
+                                              <img style="vertical-align: middle; height: 16px"  src="https://i.ibb.co/j9tZMQS/Document.png"  alt="" width="16" height="16">
+                                              <a style="vertical-align: middle; line-height: 16px; color: #006262; text-decoration: underline"  href="/">Download</a>
 
                                           </div>
                                         </td>
