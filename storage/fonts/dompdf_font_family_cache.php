@@ -79,9 +79,9 @@ return array (
     'normal' => $rootDir . '/lib/fonts/DejaVuSerif',
   ),
   'red hat text' => array(
-    'normal' => $fontDir . '/red_hat_text_normal_2a05147a056822fdc38ed25508877202',
-    '500' => $fontDir . '/red_hat_text_500_40ff937a19287b15d57cc9a512cabab4',
-    'bold' => $fontDir . '/red_hat_text_bold_1eef3667c5a3e4569ce3b6193ffc1f62',
+    'normal' => $fontDir . '/red_hat_text_normal_4135551172e321bb5f1dc3c2ea44f62f',
+    '500' => $fontDir . '/red_hat_text_500_b506869ca50a8116ad81acea4263849a',
+    'bold' => $fontDir . '/red_hat_text_bold_04b5a97b84fd0764d18649c874d8defa',
   ),
   'arial' => array(
     'normal' => $fontDir . '/arial_normal_0170059bb70bab6f08900f655d4e52e7',

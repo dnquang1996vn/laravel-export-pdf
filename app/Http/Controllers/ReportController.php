@@ -25,6 +25,14 @@ class ReportController extends Controller
     public function manifest()
     {
 //        return view('pdf.manifest-contingency');
+        $pdf = PDF::loadView('pdf.manifest');
+        $pdf->getDomPDF();
+        return $pdf->stream();
+    }
+
+    public function manifestContingency()
+    {
+//        return view('pdf.manifest-contingency');
         $pdf = PDF::loadView('pdf.manifest-contingency');
         $pdf->getDomPDF();
         return $pdf->stream();

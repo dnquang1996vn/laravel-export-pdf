@@ -25,3 +25,4 @@ Route::get('/mailable', function () {
 Route::get('/pdf/purchase_order', [\App\Http\Controllers\ReportController::class, 'purchaseOrder']);
 Route::get('/pdf/invoice', [\App\Http\Controllers\ReportController::class, 'invoice']);
 Route::get('/pdf/manifest', [\App\Http\Controllers\ReportController::class, 'manifest']);
+Route::get('/pdf/manifest-contingency', [\App\Http\Controllers\ReportController::class, 'manifestContingency']);
